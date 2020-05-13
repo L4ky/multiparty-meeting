@@ -170,6 +170,9 @@ const SpeakerPeer = (props) =>
 						<div className={classnames(classes.viewContainer)} style={style}>
 							<VideoView
 								advancedMode={advancedMode}
+								peer={peer}
+								displayName={peer.displayName}
+								showPeerInfo
 								videoContain
 								consumerSpatialLayers={
 									screenConsumer ? screenConsumer.spatialLayers : null
