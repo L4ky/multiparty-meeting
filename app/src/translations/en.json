@@ -26,6 +26,7 @@
 	"room.newPeer": "{displayName} joined the room",
 	"room.newFile": "New file available",
 	"room.toggleAdvancedMode": "Toggled advanced mode",
+	"room.toggleSettings": "Toggled settings",
 	"room.setDemocraticView": "Changed layout to democratic view",
 	"room.setFilmStripView": "Changed layout to filmstrip view",
 	"room.loggedIn": "You are logged in",

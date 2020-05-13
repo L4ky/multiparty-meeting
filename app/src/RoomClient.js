@@ -415,6 +415,19 @@ export default class RoomClient
 						break;
 					}
 
+					case 'S': // Activate advanced mode
+					{
+						store.dispatch(roomActions.setSettingsOpen(!room.settingsOpen));
+						store.dispatch(requestActions.notify(
+							{
+								text : intl.formatMessage({
+									id             : 'room.toggleSettings',
+									defaultMessage : 'Toggled settings'
+								})
+							}));
+						break;
+					}
+
 					default:
 					{
 						break;
